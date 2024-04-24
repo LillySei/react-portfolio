@@ -1,0 +1,32 @@
+:root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f7efd3;
+  overflow: hidden;
+  display: block;
+}
+
+#follower {
+  width: 15px;
+  height: 15px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+  background-color: transparent;
+}
+
+
+

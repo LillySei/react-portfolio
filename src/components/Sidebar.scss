@@ -1,0 +1,46 @@
+.navbar{
+    
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: block;
+    padding: 8px 8px 10px 20px;
+    font-size: 15px;
+    text-decoration:none;
+    color: #faad58;
+}
+
+.menu{
+    writing-mode: vertical-rl; /* Von oben nach unten */
+            text-orientation: sideways; /* Aufrecht */
+            white-space: nowrap;
+            display: flex; /* Flexbox verwenden */
+            justify-content: center; /* Horizontal zentrieren */
+            align-items: center; /* Vertikal zentrieren */
+            height: 100vh;
+            margin-left: 20px;
+            
+}
+.link:hover{
+    color: blue;
+}
+.link{
+    padding-bottom: 15px;
+    text-decoration: none;
+    padding-top: 15px;
+    color: #faad58;
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.link:hover{
+    cursor: pointer;
+}
